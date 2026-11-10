@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Gabrielle Reis</title>
+
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .section-title h2 {
+      position: relative;
+      padding-bottom: 18px;
+    }
+
+    .section-title h2::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #149ddd;
+      left: 0;
+      bottom: 0;
+    }
+
+    .skills .progress {
+      height: auto;
+      display: block;
+      background: none;
+      margin-bottom: 24px;
+    }
+
+    .skills .skill {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .skills .skill .val {
+      font-style: normal;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .skills .progress-bar-wrap {
+      height: 10px;
+      background: #dce8f2;
+      overflow: hidden;
+    }
+
+    .skills .progress-bar {
+      height: 10px;
+      background: #149ddd;
+      transition: width 0.8s ease;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <!-- MENU LATERAL -->
+  <header id="header" class="header dark-background d-flex flex-column">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/01.jpeg"
+           alt="Foto de Gabrielle Reis"
+           class="img-fluid rounded-circle">
+    </div>
+
+    <a href="#hero" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Gabrielle Reis</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> Início</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> Sobre mim</a></li>
+        <li><a href="#skills"><i class="bi bi-laptop navicon"></i> Habilidades</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Formação</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projetos</a></li>
+        <li><a href="#services"><i class="bi bi-gear navicon"></i> Áreas de interesse</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contato</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- INÍCIO -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/02.jpeg" alt="Imagem de fundo" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <h2>Gabrielle Reis</h2>
+
+        <p>
+          Sou <span class="typed"
+          data-typed-items="Estudante de Tecnologia, Interessada em Programação, Desenvolvedora em formação"></span>
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2>Sobre mim</h2>
+
+        <p>
+          Meu nome é Gabrielle Reis, moro em Carapicuíba,
+          São Paulo, e sou estudante do Ensino Médio.
+          Tenho interesse na área de Tecnologia da Informação
+          e gosto de aprender coisas novas, principalmente
+          relacionadas à programação e ao desenvolvimento de sites.
+        </p>
+
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-4">
+            <img src="assets/img/03.jpeg"
+                 class="img-fluid"
+                 alt="Gabrielle Reis">
+          </div>
+
+          <div class="col-lg-8 content">
+
+            <h2>Estudante de Tecnologia e Desenvolvedora em formação</h2>
+
+            <p class="fst-italic py-3">
+              Acredito que a tecnologia oferece oportunidades
+              para aprender, criar e transformar ideias em realidade.
+            </p>
+
+            <div class="row">
+
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Nome:</strong>
+                    <span>Gabrielle Reis</span>
+                  </li>
+
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Cidade:</strong>
+                    <span>Carapicuíba - SP</span>
+                  </li>
+
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Perfil:</strong>
+                    <span>Estudante</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Formação:</strong>
+                    <span>Ensino Médio em andamento</span>
+                  </li>
+
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Área:</strong>
+                    <span>Tecnologia da Informação</span>
+                  </li>
+
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Objetivo:</strong>
+                    <span>Crescer na área de TI</span>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
+            <p class="py-3">
+              Sou uma pessoa curiosa e gosto de aprender
+              e descobrir coisas novas. Tenho interesse em
+              programação, criação de sites e ferramentas digitais.
+              Quero continuar estudando, desenvolver minhas
+              habilidades e construir meu futuro profissional
+              na área de tecnologia.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="skills section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2>Minhas habilidades</h2>
+
+        <p>
+          Conhecimentos que venho desenvolvendo por meio dos estudos,
+          atividades escolares e projetos.
+        </p>
+
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">
+                HTML <i class="val">Em desenvolvimento</i>
+              </span>
+
+              <div class="progress-bar-wrap">
+                <div class="progress-bar"
+                     role="progressbar"
+                     aria-valuenow="55"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                     style="width: 55%;">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">
+                CSS <i class="val">Em desenvolvimento</i>
+              </span>
+
+              <div class="progress-bar-wrap">
+                <div class="progress-bar"
+                     role="progressbar"
+                     aria-valuenow="40"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                     style="width: 40%;">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">
+                JavaScript <i class="val">Em aprendizado</i>
+              </span>
+
+              <div class="progress-bar-wrap">
+                <div class="progress-bar"
+                     role="progressbar"
+                     aria-valuenow="30"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                     style="width: 30%;">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">
+                Edição de vídeos <i class="val">Em desenvolvimento</i>
+              </span>
+
+              <div class="progress-bar-wrap">
+                <div class="progress-bar"
+                     role="progressbar"
+                     aria-valuenow="60"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                     style="width: 60%;">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">
+                Criatividade <i class="val">Em desenvolvimento</i>
+              </span>
+
+              <div class="progress-bar-wrap">
+                <div class="progress-bar"
+                     role="progressbar"
+                     aria-valuenow="70"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                     style="width: 70%;">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">
+                Trabalho em equipe <i class="val">Em desenvolvimento</i>
+              </span>
+
+              <div class="progress-bar-wrap">
+                <div class="progress-bar"
+                     role="progressbar"
+                     aria-valuenow="75"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                     style="width: 75%;">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="resume" class="resume section">
+
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2>Formação e trajetória</h2>
+
+        <p>
+          Minha trajetória de aprendizado e os conhecimentos
+          que venho construindo para alcançar meus objetivos.
+        </p>
+
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <h3 class="resume-title">Formação acadêmica</h3>
+
+            <div class="resume-item">
+              <h4>Ensino Médio</h4>
+              <h5>Em andamento</h5>
+
+              <p><em>Estudante da Escola Elizabeth</em></p>
+
+              <p>
+                Desenvolvendo conhecimentos acadêmicos e buscando
+                novas experiências de aprendizado.
+              </p>
+            </div>
+
+            <h3 class="resume-title">Área de estudo</h3>
+
+            <div class="resume-item">
+              <h4>Tecnologia da Informação</h4>
+
+              <p>
+                Tenho interesse em aprender programação,
+                desenvolvimento web e conhecer diferentes
+                ferramentas e tecnologias.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <h3 class="resume-title">Projetos e aprendizado</h3>
+
+            <div class="resume-item">
+              <h4>Desenvolvimento de sites</h4>
+
+              <p>
+                Estudos e práticas de HTML, CSS e JavaScript
+                para criar e estruturar páginas web.
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Projetos escolares</h4>
+
+              <p>
+                Desenvolvimento de trabalhos e atividades escolares,
+                aprendendo por meio de projetos.
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Criação digital</h4>
+
+              <p>
+                Interesse em explorar ferramentas digitais,
+                criatividade e diferentes formas de produção
+                de conteúdo.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2>Meus projetos</h2>
+
+        <p>
+          Espaço destinado aos meus projetos escolares,
+          atividades de programação e criações digitais.
+        </p>
+
+      </div>
+
+      <div class="container">
+
+        <div class="isotope-layout"
+             data-default-filter="*"
+             data-layout="masonry"
+             data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up">
+            <li data-filter="*" class="filter-active">Todos</li>
+            <li data-filter=".filter-web">Programação</li>
+            <li data-filter=".filter-design">Criação</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+
+                <img src="assets/img/portfolio/app-1.jpg"
+                     class="img-fluid"
+                     alt="Projeto de desenvolvimento web">
+
+                <div class="portfolio-info">
+                  <h4>Desenvolvimento Web</h4>
+                  <p>Estudos e práticas de criação de páginas utilizando HTML, CSS e JavaScript.</p>
+
+                  <a href="assets/img/portfolio/app-1.jpg"
+                     title="Desenvolvimento Web"
+                     data-gallery="portfolio-gallery"
+                     class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+
+                <img src="assets/img/portfolio/product-1.jpg"
+                     class="img-fluid"
+                     alt="Projeto de criação digital">
+
+                <div class="portfolio-info">
+                  <h4>Criação Digital</h4>
+                  <p>Atividades de criatividade e exploração de ferramentas digitais.</p>
+
+                  <a href="assets/img/portfolio/product-1.jpg"
+                     title="Criação Digital"
+                     data-gallery="portfolio-gallery"
+                     class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+
+                <img src="assets/img/portfolio/branding-1.jpg"
+                     class="img-fluid"
+                     alt="Projeto escolar">
+
+                <div class="portfolio-info">
+                  <h4>Projetos Escolares</h4>
+                  <p>Trabalhos e atividades desenvolvidos durante minha trajetória escolar.</p>
+
+                  <a href="assets/img/portfolio/branding-1.jpg"
+                     title="Projetos Escolares"
+                     data-gallery="portfolio-gallery"
+                     class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREAS DE INTERESSE -->
+    <section id="services" class="services section">
+
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2>Áreas de interesse</h2>
+
+        <p>
+          Áreas que despertam minha curiosidade e nas quais
+          desejo desenvolver meus conhecimentos.
+        </p>
+
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon"><i class="bi bi-code-slash"></i></div>
+              <h3>Programação</h3>
+              <p>Aprender linguagens de programação e desenvolver soluções digitais.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item item-orange position-relative">
+              <div class="icon"><i class="bi bi-globe"></i></div>
+              <h3>Desenvolvimento Web</h3>
+              <p>Criar sites e páginas utilizando tecnologias de desenvolvimento web.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item item-teal position-relative">
+              <div class="icon"><i class="bi bi-palette"></i></div>
+              <h3>Criação Digital</h3>
+              <p>Explorar a criatividade por meio de projetos e ferramentas digitais.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item item-red position-relative">
+              <div class="icon"><i class="bi bi-camera-video"></i></div>
+              <h3>Edição de Vídeos</h3>
+              <p>Conhecer técnicas de edição e explorar a produção de conteúdos audiovisuais.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item item-indigo position-relative">
+              <div class="icon"><i class="bi bi-people"></i></div>
+              <h3>Trabalho em Equipe</h3>
+              <p>Compartilhar ideias, colaborar e aprender com outras pessoas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item item-pink position-relative">
+              <div class="icon"><i class="bi bi-lightbulb"></i></div>
+              <h3>Inovação</h3>
+              <p>Buscar novos conhecimentos e transformar ideias em projetos.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- OBJETIVO -->
+    <section id="goal" class="section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2>Meu objetivo</h2>
+
+        <p>
+          Meu objetivo é continuar estudando, ampliar meus conhecimentos
+          em Tecnologia da Informação e conquistar oportunidades para
+          crescer profissionalmente. Quero aprender novas linguagens
+          de programação, desenvolver projetos e adquirir experiência,
+          construindo meu futuro na área de tecnologia.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contact" class="contact section">
+
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2>Contato</h2>
+
+        <p>
+          Este espaço representa um pouco dos meus estudos,
+          interesses e objetivos na área de Tecnologia da Informação.
+        </p>
+
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <h3>Localização</h3>
+                  <p>Carapicuíba - São Paulo</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-laptop"></i>
+                <div>
+                  <h3>Área de interesse</h3>
+                  <p>Tecnologia da Informação</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-linkedin"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <p><a href="#">Adicione seu perfil, se tiver</a></p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-instagram"></i>
+                <div>
+                  <h3>Instagram</h3>
+                  <p><a href="https://www.instagram.com/_gabijx.0_" target="_blank">@_gabijx.0_</a></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+
+            <div class="php-email-form">
+              <h3>Vamos nos conectar?</h3>
+
+              <p>
+                Obrigada por conhecer meu portfólio!
+                Este espaço apresenta um pouco de quem sou,
+                meus interesses, meus estudos e meus objetivos
+                para o futuro.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+
+      <div class="copyright text-center">
+        <p>
+          © 2026 <strong>Gabrielle Reis</strong>.
+          Todos os direitos reservados.
+        </p>
+      </div>
+
+      <div class="credits text-center">
+        Portfólio pessoal | Tecnologia e desenvolvimento
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- BOTÃO VOLTAR AO TOPO -->
+  <a href="#" id="scroll-top"
+     class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <div id="preloader"></div>
+
+  <!-- JAVASCRIPT -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
